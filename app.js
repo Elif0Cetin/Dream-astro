@@ -21,7 +21,7 @@ function myFunction() {
     const x = document.getElementById("pwd");
     if (x.type === "password") {
         x.type = "text";
-    } else {
+    } else { 
         x.type = "password";
     }
 }
