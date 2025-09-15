@@ -396,8 +396,6 @@ input:focus{
     background-color:rgba(0, 0, 0, 0.3) ;
 }
 
-
-
 .radio{
     display: flex;
     gap: 20px;
@@ -454,11 +452,7 @@ input[type=checkbox]:focus{
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
-    height: calc(100vh - 200px);
-
-    
-   
-    
+    height: calc(100vh - 200px);  
 }
 .hero--mission__introduction{
     display: flex;
@@ -501,7 +495,6 @@ input[type=checkbox]:focus{
     text-decoration: underline;
 }
 
-
 .grid {
   max-width: 1200px;
   margin: 0 auto;
@@ -519,9 +512,6 @@ figure {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-      
-
-  
 }
 
 strong{
@@ -534,8 +524,6 @@ figcaption{
     line-height: 25px;
     text-align: center;
     max-width: 220px;
-  
-   
 }
 
 figure picture > img{
@@ -553,7 +541,6 @@ figure picture > img{
     font-weight: 600;
     font-size: 1.4rem;
 }
-
 
 @media all and (max-width: 1195px){
     .space-party{
@@ -724,7 +711,6 @@ figure picture > img{
   gap: 1.5rem;
   grid-template-columns: repeat(3, minmax(100px, 1fr));
 }
-
    
 }
 
